@@ -6,7 +6,7 @@
 ## Usage
 In the project directory:
 ```sh
-gcc imgreader.c -o imgreader
+gcc imgreader.c -o imgreader -lm
 make
 # load module
 insmod mod_imgshow.ko
