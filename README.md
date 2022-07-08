@@ -11,7 +11,8 @@ make
 # load module
 insmod mod_imgshow.ko
 # write image information to device
-imgreader [path to image] > /dev/imgshow
+./imgreader [path to image] > sample
+cat sample > /dev/imgshow
 # display characterized image
 cat /dev/imgshow
 # remove module
